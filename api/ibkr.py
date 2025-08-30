@@ -1,4 +1,10 @@
 python
+# Mimari Sabitliği Sağlayan Unsurlar:
+# - Sabit sembol: Kodda “AAPL” sabit olarak tanımlanmıştır.
+# - Sabit bağlantı: 127.0.0.1:7497 adresi IB Gateway/TWS için varsayılan bağlantıdır.
+# - Sabit veri tipi: Sadece tickPrice verisi alınır.
+# - Sabit iş akışı: Bağlan → veri iste → bekle → bağlantıyı kes.
+# - Sabit yapı: Kod tek dosyada, modülerlik veya dış bağımlılık olmadan çalışır.
 from ibapi.client import EClient
 from ibapi.wrapper import EWrapper
 from ibapi.contract import Contract
