@@ -1,5 +1,5 @@
 python
-# Mimari Sabitliği Sağlayan Unsurlar:
+#Mimari Sabitliği Sağlayan Unsurlar:Bu kod, Interactive Brokers TWS veya IB Gateway ile bağlantı kurar, belirli bir sembol için piyasa verisi çeker ve mimarisi sabit kalacak şekilde yapılandırılmıştır.
 # - Sabit sembol: Kodda “AAPL” sabit olarak tanımlanmıştır.
 # - Sabit bağlantı: 127.0.0.1:7497 adresi IB Gateway/TWS için varsayılan bağlantıdır.
 # - Sabit veri tipi: Sadece tickPrice verisi alınır.
