@@ -3,6 +3,7 @@
 # Sabit zamanlama mantığı: Her görev belirli aralıklarla çalışır.
 # Sabit iş akışı: Görevleri sırayla çalıştırır, hata yönetimi içerir.
 # Bağımsız yapı: Dış sistemlerden etkilenmeden çalışır, sadece fonksiyon alır.
+#Bu yapı sayesinde sistemin belirli aralıklarla otomatik işlem yapması sağlanır. Örneğin her 60 saniyede bir copy-trade eşleşmesi kontrol edilebilir.
 python
 import time
 import threading
