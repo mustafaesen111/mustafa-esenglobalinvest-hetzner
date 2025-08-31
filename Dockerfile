@@ -1,3 +1,7 @@
+# Versiyon sabitleme: requirements.txt ile sağlandı
+# Otomatik başlatma: restart: always ile container her zaman ayağa kalkar
+# Log yönlendirme: volumes ve logging ayarları Promtail uyumlu
+# Image versiyonlama: container_name: copytrade_api_v1 ile versiyon takibi kolay
 dockerfile
 FROM python:3.10-slim
 
