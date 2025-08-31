@@ -1,0 +1,21 @@
+yaml
+version: '3.8'
+
+services:
+  copytrade-api:
+    build:
+      context:.
+      dockerfile: Dockerfile
+    container_name: copytrade_api_v1
+    ports:
+      - "8000:8000"
+    restart: always
+    environment:
+      - LOG_LEVEL=info
+    volumes:
+      -./logs:/var/log/copytrade
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
